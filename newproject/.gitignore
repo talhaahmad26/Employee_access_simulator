@@ -1,0 +1,84 @@
+# ============================
+# Django / Python .gitignore
+# ============================
+
+# Python cache & bytecode
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+build/
+dist/
+local_settings.py
+
+# Migrations (optional, if you don't want to push them)
+# Uncomment the next line if you prefer to exclude migrations
+# */migrations/
+
+# Environment variables
+.env
+.env.local
+.env.dev
+.env.production
+.env.test
+
+# VS Code / PyCharm / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup / temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.orig
+
+# Node/npm (if using React or frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# pytest / coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# Docker / deployment
+docker-compose.override.yml
+*.pid
+
+# JSON / sample data (if private or test)
+employees_sample.json
+
+# JetBrains IDE
+.idea/
+
+# Cache
+.cache/
